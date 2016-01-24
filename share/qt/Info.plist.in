@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@.@CLIENT_VERSION_BUILD@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers 2011-@COPYRIGHT_YEAR@ The Litecoin Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@.@CLIENT_VERSION_BUILD@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers 2011-@COPYRIGHT_YEAR@ The Florincoin Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@.@CLIENT_VERSION_BUILD@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Litecoin-Qt</string>
+  <string>Florincoin-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.florincoin.Litecoin-Qt</string>
+  <string>org.florincoin.Florincoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.florincoin.LitecoinPayment</string>
+      <string>org.florincoin.FlorincoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>florincoin</string>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>org.florincoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Litecoin payment request</string>
+      <string>Florincoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

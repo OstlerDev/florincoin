@@ -25,9 +25,9 @@ The torrent client installed will recognize the download of the torrent file. Sa
 
 ![Fig2](img/bootstrap2.png)
 
-### Download the Blockchain from the LitecoinNode Project
+### Download the Blockchain from the FlorincoinNode Project
 
-The Litecoin node project provides multiple and regulaly updated direct-link downloads. Copies of bootstrap.dat can be downloaded directly from servers provided by LitecoinNode, or be downloaded from a randomly selected server. All copies of boootstrap are updated at the maximum of every six months.
+The Florincoin node project provides multiple and regulaly updated direct-link downloads. Copies of bootstrap.dat can be downloaded directly from servers provided by FlorincoinNode, or be downloaded from a randomly selected server. All copies of boootstrap are updated at the maximum of every six months.
 
 **Copies of Bootstrap from a specific server**
 

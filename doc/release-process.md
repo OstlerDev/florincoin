@@ -53,7 +53,7 @@ Release Process
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Litecoin Core for Linux, Windows, and OS X:
+###Build Florincoin Core for Linux, Windows, and OS X:
 
 	./bin/gbuild --commit florincoin=v${VERSION} ../florincoin/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../florincoin/contrib/gitian-descriptors/gitian-linux.yml

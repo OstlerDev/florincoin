@@ -75,7 +75,7 @@ src/qt/test/moc*.cpp
 *.qm
 Makefile
 florincoin-qt
-Litecoin-Qt.app
+Florincoin-Qt.app
 
 # Unit-tests
 Makefile.test
@@ -111,3 +111,5 @@ qa/pull-tester/test.*/*
 !src/leveldb*/Makefile
 
 /doc/doxygen/
+
+.!*
