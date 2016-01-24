@@ -31,18 +31,18 @@ The Litecoin node project provides multiple and regulaly updated direct-link dow
 
 **Copies of Bootstrap from a specific server**
 
-* [http://mango.litecoinnode.org/bootstrap.dat](http://mango.litecoinnode.org/bootstrap.dat)
-* [http://apple.litecoinnode.org/bootstrap.dat](http://apple.litecoinnode.org/bootstrap.dat)
+* [http://mango.florincoinnode.org/bootstrap.dat](http://mango.florincoinnode.org/bootstrap.dat)
+* [http://apple.florincoinnode.org/bootstrap.dat](http://apple.florincoinnode.org/bootstrap.dat)
 
 **Randomly selected dopy of Bootstrap**
 
 This could be useful for use in scripts.
 
-* [http://bootstrap.litecoinnode.org/bootstrap.dat](http://bootstrap.litecoinnode.org/bootstrap.dat)
+* [http://bootstrap.florincoinnode.org/bootstrap.dat](http://bootstrap.florincoinnode.org/bootstrap.dat)
 	
 **Example usage in a (bash) Terminal**
 
-	wget http://bootstrap.litecoinnode.org/bootstrap.dat       //downloads bootstrap into current directory
+	wget http://bootstrap.florincoinnode.org/bootstrap.dat       //downloads bootstrap into current directory
 
 ### Importing the Blockchain
 Exit the Bitcoin client software if you have it running. Be sure not to have an actively used wallet in use. We are going to copy the download of the blockchain to the Bitcoin client data directory. You should run the client software at least once so it can generate the data directory. Copy the downloaded bootstrap.dat file into the Bitcoin data folder.

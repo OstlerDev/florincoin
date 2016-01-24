@@ -19,10 +19,10 @@ BEGIN
             VALUE "CompanyName",        "Litecoin"
             VALUE "FileDescription",    "Litecoind (OSS daemon/client for Litecoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "litecoind"
+            VALUE "InternalName",       "florincoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "litecoind.exe"
+            VALUE "OriginalFilename",   "florincoind.exe"
             VALUE "ProductName",        "Litecoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

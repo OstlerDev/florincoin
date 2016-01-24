@@ -160,7 +160,7 @@
         <translation>تایید رمزگذاری</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your florincoins from being stolen by malware infecting your computer.</source>
         <translation>Litecoin برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
     </message>
     <message>
@@ -264,7 +264,7 @@
     </message>
     <message>
         <source>Litecoin</source>
-        <translation>litecoin</translation>
+        <translation>florincoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -407,7 +407,7 @@ Address: %4
     </message>
     <message>
         <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای litecoin نسشت</translation>
+        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای florincoin نسشت</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -469,7 +469,7 @@ Address: %4
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه litecoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه florincoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     <message>
         <source>out of sync</source>

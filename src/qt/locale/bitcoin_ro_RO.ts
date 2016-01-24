@@ -188,7 +188,7 @@
         <translation>Introduceţi noua parolă a portofelului electronic.&lt;br/&gt;Vă rugăm să folosiţi o parolă de&lt;b&gt;minimum 10 caractere aleatoare&lt;/b&gt;, sau &lt;b&gt;minimum 8 cuvinte&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your florincoins from being stolen by malware infecting your computer.</source>
         <translation>Litecoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
     </message>
     <message>
@@ -395,8 +395,8 @@
         <translation>Nucleul Litecoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Cereţi plăţi (generează coduri QR şi litecoin-uri: URls)</translation>
+        <source>Request payments (generates QR codes and florincoin: URIs)</source>
+        <translation>Cereţi plăţi (generează coduri QR şi florincoin-uri: URls)</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
@@ -411,8 +411,8 @@
         <translation>Arată lista de adrese pentru primire şi etichetele</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Deschidere litecoin: o adresa URI sau o cerere de plată</translation>
+        <source>Open a florincoin: URI or payment request</source>
+        <translation>Deschidere florincoin: o adresa URI sau o cerere de plată</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -777,7 +777,7 @@ Adresa: %4
     </message>
     <message>
         <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>Adresa introdusă "%1" nu este o adresă litecoin validă.</translation>
+        <translation>Adresa introdusă "%1" nu este o adresă florincoin validă.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1088,7 +1088,7 @@ Adresa: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de litecoin.</translation>
+        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de florincoin.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1128,7 +1128,7 @@ Adresa: %4
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa litecoin pe care aţi specificat-o nu este validă.</translation>
+        <translation>Adresa florincoin pe care aţi specificat-o nu este validă.</translation>
     </message>
 </context>
 <context>
@@ -1245,8 +1245,8 @@ Adresa: %4
         <translation>Eroare la cererea de plată</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Nu poate porni litecoin: manipulator clic-pentru-plată</translation>
+        <source>Cannot start florincoin: click-to-pay handler</source>
+        <translation>Nu poate porni florincoin: manipulator clic-pentru-plată</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1546,7 +1546,7 @@ Adresa: %4
     </message>
     <message>
         <source>Welcome to the Litecoin RPC console.</source>
-        <translation>Bun venit la consola litecoin RPC.</translation>
+        <translation>Bun venit la consola florincoin RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1978,7 +1978,7 @@ Adresa: %4
     </message>
     <message>
         <source>Warning: Invalid Litecoin address</source>
-        <translation>Atenţie: Adresa litecoin nevalidă!</translation>
+        <translation>Atenţie: Adresa florincoin nevalidă!</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2029,7 +2029,7 @@ Adresa: %4
     </message>
     <message>
         <source>The Litecoin address to send the payment to</source>
-        <translation>Adresa litecoin către care se face plata</translation>
+        <translation>Adresa florincoin către care se face plata</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2060,8 +2060,8 @@ Adresa: %4
         <translation>Introduceţi eticheta pentru ca această adresa să fie introdusă în lista de adrese folosite</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>un mesaj a fost ataşat la litecoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua litecoin.</translation>
+        <source>A message that was attached to the florincoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>un mesaj a fost ataşat la florincoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua florincoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2670,7 +2670,7 @@ Adresa: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Trimitere litecoin</translation>
+        <translation>Trimitere florincoin</translation>
     </message>
 </context>
 <context>

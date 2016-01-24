@@ -60,7 +60,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, bool about) :
     } else {
         setWindowTitle(tr("Command-line options"));
         QString header = tr("Usage:") + "\n" +
-            "  litecoin-qt [" + tr("command-line options") + "]                     " + "\n";
+            "  florincoin-qt [" + tr("command-line options") + "]                     " + "\n";
 
         QString coreOptions = QString::fromStdString(HelpMessage(HMM_BITCOIN_QT));
 

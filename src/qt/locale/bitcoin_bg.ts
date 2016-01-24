@@ -184,8 +184,8 @@
         <translation>Портфейлът е криптиран</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Litecoin ще се затоври сега за да завърши процеса на криптиране. Запомнете, че криптирането на вашия портефейл не може напълно да предпази вашите litecoins от кражба чрез зловреден софтуер, инфектирал вашия компютър</translation>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your florincoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin ще се затоври сега за да завърши процеса на криптиране. Запомнете, че криптирането на вашия портефейл не може напълно да предпази вашите florincoins от кражба чрез зловреден софтуер, инфектирал вашия компютър</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -383,8 +383,8 @@
         <translation>Litecoin ядро</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Изискване на плащания(генерира QR кодове и litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and florincoin: URIs)</source>
+        <translation>Изискване на плащания(генерира QR кодове и florincoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
@@ -399,8 +399,8 @@
         <translation>Покажи списък с използваните адреси и имена.</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Отворете litecoin: URI  или заявка за плащане</translation>
+        <source>Open a florincoin: URI or payment request</source>
+        <translation>Отворете florincoin: URI  или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1133,7 +1133,7 @@ Address: %4
         <translation>Възникна грешка по време назаявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
+        <source>Cannot start florincoin: click-to-pay handler</source>
         <translation>Litecoin не можe да се стартира: click-to-pay handler</translation>
     </message>
     <message>

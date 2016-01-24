@@ -19,10 +19,10 @@ BEGIN
             VALUE "CompanyName",        "Litecoin"
             VALUE "FileDescription",    "Litecoin-cli (OSS RPC client for Litecoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "litecoin-cli"
+            VALUE "InternalName",       "florincoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "litecoin-cli.exe"
+            VALUE "OriginalFilename",   "florincoin-cli.exe"
             VALUE "ProductName",        "Litecoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
