@@ -128,23 +128,23 @@ public:
         nTargetSpacing = 40; // Florincoin 40 seconds
         nMaxTipAge = 24 * 60 * 60;
 
-        /**
-         * Build the genesis block. Note that the output of the genesis coinbase cannot
-         * be spent as it did not originally exist in the database.
-         * 
-         * CBlock(hash=000000000019d6, ver=1, hashPrevBlock=00000000000000, hashMerkleRoot=4a5e1e, nTime=1231006505, nBits=1d00ffff, nNonce=2083236893, vtx=1)
-         *   CTransaction(hash=4a5e1e, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-         *     CTxIn(COutPoint(000000, -1), coinbase 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73)
-         *     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
-         *   vMerkleTree: 4a5e1e
-         */
+        // Genesis Block:
+        // block.nTime = 1371488396 
+        // block.nNonce = 1000112548
+        // block.GetHash = 09c7781c9df90708e278c35d38ea5c9041d7ecfcdd1c56ba67274b7cff3e1cea
+        // CBlock(hash=09c7781c9df90708e278, PoW=00000dd664a0d447b6b3, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=730f0c8ddc, nTime=1371488396, nBits=1e0ffff0, nNonce=1000112548, vtx=1)
+        //   CTransaction(hash=730f0c8ddc, ver=2, vin.size=1, vout.size=1, nLockTime=0, strTxComment=text:Florincoin genesis block)
+        //     CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d010441536c617368646f74202d203137204a756e652032303133202d205361756469204172616269612053657420546f2042616e2057686174734170702c20536b797065)
+        //     CTxOut(nValue=100.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
+        //   vMerkleTree: 730f0c8ddc 
+
         const char* pszTimestamp = "Slashdot - 17 June 2013 - Saudi Arabia Set To Ban WhatsApp, Skype";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 100 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("0416ca41786113574984664acedc7d338cc10a29edec0adae32f3fa0317fee95c9790150f38544204fac805ac58bca435df5021233d8e347f6127832a9e0207e1b") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
@@ -154,6 +154,11 @@ public:
         genesis.nNonce   = 1000112548;
 
         hashGenesisBlock = genesis.GetHash();
+
+        //Debug printing
+        printf("Genesis Block: %s\n", hashGenesisBlock.ToString().c_str());
+        printf("Merkle Root Hash: %s\n", hashGenesisBlock.ToString().c_str());
+
         assert(hashGenesisBlock == uint256("0x09c7781c9df90708e278c35d38ea5c9041d7ecfcdd1c56ba67274b7cff3e1cea"));
         assert(genesis.hashMerkleRoot == uint256("0x730f0c8ddc5a592d5512566890e2a73e45feaa6748b24b849d1c29a7ab2b2300"));
 
