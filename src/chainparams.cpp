@@ -157,7 +157,9 @@ public:
 
         //Debug printing
         printf("Genesis Block: %s\n", hashGenesisBlock.ToString().c_str());
-        printf("Merkle Root Hash: %s\n", hashGenesisBlock.ToString().c_str());
+        printf("Expected Genesis Block: %s\n", "0x09c7781c9df90708e278c35d38ea5c9041d7ecfcdd1c56ba67274b7cff3e1cea");
+        printf("Merkle Root Hash: %s\n", genesis.hashMerkleRoot.ToString().c_str());
+        printf("Expected Merkle Root Hash: %s\n", "0x730f0c8ddc5a592d5512566890e2a73e45feaa6748b24b849d1c29a7ab2b2300");
 
         assert(hashGenesisBlock == uint256("0x09c7781c9df90708e278c35d38ea5c9041d7ecfcdd1c56ba67274b7cff3e1cea"));
         assert(genesis.hashMerkleRoot == uint256("0x730f0c8ddc5a592d5512566890e2a73e45feaa6748b24b849d1c29a7ab2b2300"));
